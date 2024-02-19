@@ -5,6 +5,10 @@ public class CanvasManager : MonoBehaviour
 {
     public GameObject[] RegisterObjects;
     public GameObject[] JinsObjects;
+
+    public GameObject[] FanlarObjects;
+    public GameObject[] TextObjects;
+
     public Text ErrorIsm;
     public Text ErrorFamilya;
 
@@ -47,4 +51,21 @@ public class CanvasManager : MonoBehaviour
 
         OnOf();
     }
+
+    public void OnOf1()
+    {
+        foreach (GameObject obj in JinsObjects)
+        {
+            obj.SetActive(false);
+        }
+        foreach (GameObject obj in TextObjects)
+        {
+            obj.SetActive(true);
+        }
+        foreach (GameObject obj in FanlarObjects)
+        {
+            obj.SetActive(true);
+        }
+    }
+
 }
