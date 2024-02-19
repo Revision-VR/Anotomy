@@ -58,11 +58,12 @@ public class CanvasManager : MonoBehaviour
         {
             obj.SetActive(false);
         }
-        foreach (GameObject obj in TextObjects)
+     
+        foreach (GameObject obj in FanlarObjects)
         {
             obj.SetActive(true);
         }
-        foreach (GameObject obj in FanlarObjects)
+        foreach (GameObject obj in TextObjects)
         {
             obj.SetActive(true);
         }
