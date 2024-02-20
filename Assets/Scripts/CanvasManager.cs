@@ -50,6 +50,8 @@ public class CanvasManager : MonoBehaviour
             return; 
 
         OnOf();
+       // SaveUser saveUser = new SaveUser();
+       //saveUser.DisplayScaledName();
     }
 
     public void OnOf1()
