@@ -10,6 +10,7 @@ public class CanvasManager : MonoBehaviour
     public GameObject[] FanlarObjects;
     public GameObject[] TextObjects;
     public GameObject videoController;
+    public GameObject videoController1;
     public Text ErrorIsm;
     public Text ErrorFamilya;
     [SerializeField] private GameObject[] _errorTexts;
@@ -53,9 +54,6 @@ public class CanvasManager : MonoBehaviour
     private IEnumerator WaitAndExecute()
     {
         yield return new WaitForSeconds(7f);
-       // OnOf();
-       // SaveUser saveUser = new SaveUser();
-       //saveUser.DisplayScaledName();
     }
 
     public void OnOf1()
@@ -64,6 +62,15 @@ public class CanvasManager : MonoBehaviour
         {
             obj.SetActive(false);
         }
+
+        StartCoroutine(PlayVideoAndSwitchObjects1());
+    }
+    private IEnumerator PlayVideoAndSwitchObjects1()
+    {
+        videoController1.SetActive(true);
+        yield return StartCoroutine(WaitAndExecute1());
+        videoController1.SetActive(false);
+
         foreach (GameObject obj in FanlarObjects)
         {
             obj.SetActive(true);
@@ -73,4 +80,10 @@ public class CanvasManager : MonoBehaviour
             obj.SetActive(true);
         }
     }
+
+    private IEnumerator WaitAndExecute1()
+    {
+        yield return new WaitForSeconds(4f);
+    }
+
 }
