@@ -53,7 +53,7 @@ public class CanvasManager : MonoBehaviour
     private IEnumerator WaitAndExecute()
     {
         yield return new WaitForSeconds(7f);
-        OnOf();
+       // OnOf();
        // SaveUser saveUser = new SaveUser();
        //saveUser.DisplayScaledName();
     }
