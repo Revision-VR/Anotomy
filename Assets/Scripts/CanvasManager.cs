@@ -15,6 +15,14 @@ public class CanvasManager : MonoBehaviour
     public Text ErrorFamilya;
     [SerializeField] private GameObject[] _errorTexts;
 
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            Enter();
+        }
+    }
+
     public void Enter()
     {
         foreach (GameObject obj in _errorTexts)
