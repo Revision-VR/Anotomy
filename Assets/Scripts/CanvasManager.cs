@@ -1,44 +1,25 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class CanvasManager : MonoBehaviour
 {
     public GameObject[] RegisterObjects;
     public GameObject[] JinsObjects;
-
     public GameObject[] FanlarObjects;
     public GameObject[] TextObjects;
-
+    public GameObject videoController;
     public Text ErrorIsm;
     public Text ErrorFamilya;
-
-    [SerializeField]
-    private GameObject[] _errorTexts;
-
-    void Update()
-    {
-    }
-
-    private void OnOf()
-    {
-        foreach (GameObject obj in RegisterObjects)
-        {
-            obj.SetActive(false);
-        }
-        foreach (GameObject obj in JinsObjects)
-        {
-            obj.SetActive(true);
-        }
-    }
+    [SerializeField] private GameObject[] _errorTexts;
 
     public void Enter()
     {
-
         foreach (GameObject obj in _errorTexts)
         {
             obj.SetActive(false);
         }
-
 
         if (string.IsNullOrEmpty(ErrorIsm.text))
             _errorTexts[0].SetActive(true);
@@ -47,9 +28,31 @@ public class CanvasManager : MonoBehaviour
             _errorTexts[1].SetActive(true);
 
         if (string.IsNullOrEmpty(ErrorIsm.text) || string.IsNullOrEmpty(ErrorFamilya.text))
-            return; 
+            return;
 
-        OnOf();
+        foreach (GameObject obj in RegisterObjects)
+        {
+            obj.SetActive(false);
+        }
+
+        StartCoroutine(PlayVideoAndSwitchObjects());
+    }
+
+    private IEnumerator PlayVideoAndSwitchObjects()
+    {
+        videoController.SetActive(true);
+        yield return StartCoroutine(WaitAndExecute());
+        videoController.SetActive(false);
+
+        foreach (GameObject obj in JinsObjects)
+        {
+            obj.SetActive(true);
+        }
+    }
+
+    private IEnumerator WaitAndExecute()
+    {
+        yield return new WaitForSeconds(7f);
     }
 
     public void OnOf1()
@@ -57,7 +60,7 @@ public class CanvasManager : MonoBehaviour
         foreach (GameObject obj in JinsObjects)
         {
             obj.SetActive(false);
-        }   
+        }
         foreach (GameObject obj in FanlarObjects)
         {
             obj.SetActive(true);
@@ -67,5 +70,4 @@ public class CanvasManager : MonoBehaviour
             obj.SetActive(true);
         }
     }
-
 }
