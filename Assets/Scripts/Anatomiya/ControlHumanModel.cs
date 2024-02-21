@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class ControlHumanModel : MonoBehaviour
@@ -179,7 +180,7 @@ public class ControlHumanModel : MonoBehaviour
     {
         if (HumanParentModel.activeSelf)
         {
-            //ChangeScene
+            SceneManager.LoadScene(1);
             return;
         }
 
