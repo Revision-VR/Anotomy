@@ -9,7 +9,7 @@ public class ButtonEnlarger : MonoBehaviour
     public GameObject Anatomiya;
     public GameObject Astronomiya;
 
-    public Animator FizikaAnim;
+    //public Animator FizikaAnim;
 
     private Quaternion[] originalRotations;
 
@@ -34,7 +34,7 @@ public class ButtonEnlarger : MonoBehaviour
 
         //Fizika.transform.rotation = Quaternion.Euler(0, 0, 0);
 
-        FizikaAnim.SetInteger("Fizika", 1);
+        //FizikaAnim.SetInteger("Fizika", 1);
     }
 
     public void OnExit()
