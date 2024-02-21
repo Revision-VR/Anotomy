@@ -11,6 +11,10 @@ public class CanvasManager : MonoBehaviour
     public GameObject[] TextObjects;
     public GameObject videoController;
     public GameObject videoController1;
+    public GameObject TurnOfAnim;
+    public GameObject TurnOnAnim;
+    public Animator CanvasAnim;
+    public Animator CanvasAnim1;
     public Text ErrorIsm;
     public Text ErrorFamilya;
     [SerializeField] private GameObject[] _errorTexts;
@@ -44,40 +48,72 @@ public class CanvasManager : MonoBehaviour
             obj.SetActive(false);
         }
 
-        StartCoroutine(PlayVideoAndSwitchObjects());
+        StartCoroutine(AnimationController());
+    }
+
+
+    private IEnumerator AnimationController()
+    {
+        TurnOfAnim.SetActive(true);
+        CanvasAnim.Play("CanvasAnim");
+        yield return new WaitForSeconds(1.5f);
+
+        StartCoroutine(PlayVideoAndSwitchObjects()); 
     }
 
     private IEnumerator PlayVideoAndSwitchObjects()
     {
         videoController.SetActive(true);
         yield return StartCoroutine(WaitAndExecute());
+
+        TurnOfAnim.SetActive(false);
         videoController.SetActive(false);
 
+        StartCoroutine(AnimationController1());
         foreach (GameObject obj in JinsObjects)
         {
             obj.SetActive(true);
         }
     }
+    private IEnumerator AnimationController1()
+    {
+        TurnOnAnim.SetActive(true);
+        CanvasAnim.Play("TurnOnAnim");
+        yield return new WaitForSeconds(1.5f);
+    }
+
 
     private IEnumerator WaitAndExecute()
     {
         yield return new WaitForSeconds(7f);
     }
+    private IEnumerator AnimationController2()
+    {
+        TurnOfAnim.SetActive(true);
+        CanvasAnim.Play("CanvasAnim");
+        yield return new WaitForSeconds(1.5f);
 
+        StartCoroutine(PlayVideoAndSwitchObjects1());
+
+    }
     public void OnOf1()
     {
+        StartCoroutine(AnimationController2());
         foreach (GameObject obj in JinsObjects)
         {
             obj.SetActive(false);
         }
-
-        StartCoroutine(PlayVideoAndSwitchObjects1());
     }
+  
     private IEnumerator PlayVideoAndSwitchObjects1()
     {
         videoController1.SetActive(true);
         yield return StartCoroutine(WaitAndExecute1());
+        TurnOfAnim.SetActive(false);
+
         videoController1.SetActive(false);
+
+        StartCoroutine(AnimationController1());
 
         foreach (GameObject obj in FanlarObjects)
         {
@@ -93,5 +129,4 @@ public class CanvasManager : MonoBehaviour
     {
         yield return new WaitForSeconds(4f);
     }
-
 }
