@@ -1,9 +1,204 @@
 fileFormatVersion: 2
-guid: 78de1b91957b9224e9b68b05ea334782
+guid: 6b14fe44fe87487479bcaffd0613183f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Eyelashes
+    second: {fileID: 2100000, guid: 715b81c74fa7c8844820f52660ed4912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Head.001
+    second: {fileID: 2100000, guid: af51743fbe1282945a503378f0d4a741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_InnerEyes
+    second: {fileID: 2100000, guid: 92238bffffe56124291b922f1cc1d5a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_NoGenitals
+    second: {fileID: 2100000, guid: 1cdd3a2c51dfc2b40a53ca5455928374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circular_Heart_Lower
+    second: {fileID: 2100000, guid: 040a1f6083b142547bb5ce350e6e202c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circular_Heart_Upper
+    second: {fileID: 2100000, guid: c75992a0ce6fcac4aaf8dadc86dc60cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circulatory_Arteries
+    second: {fileID: 2100000, guid: 4e420862d943a90479ca1bccf4e00ecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circulatory_Veins
+    second: {fileID: 2100000, guid: 51ae4ece2c65b174bae5ea4d57eabb4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Digestive_System
+    second: {fileID: 2100000, guid: f9d5193bcc1cd2e4bb9589de94d3401c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lymphatic_System
+    second: {fileID: 2100000, guid: 42884a3e5dc4b4148bc04833568597ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: de32d4cad4da6f949a36f827f1d6af35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muscular_System
+    second: {fileID: 2100000, guid: 5e37f522411272440804287b66ea8198, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Cerebellum
+    second: {fileID: 2100000, guid: fa2368e6c92527c4fa6065d6825cde0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Cerebrum_Multicolor1
+    second: {fileID: 2100000, guid: 13f8242cf812c5345b8a554f71068f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Cerebrum_Multicolor2
+    second: {fileID: 2100000, guid: c9517eb7288e46a4db03e8e6c873132c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Cerebrum_Multicolor3
+    second: {fileID: 2100000, guid: fd0e9cd70fa453849908b67b742f7cae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Cerebrum_Multicolor4
+    second: {fileID: 2100000, guid: 60b08398e50711244a1f3c84686fd2b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nervous_Nerves
+    second: {fileID: 2100000, guid: 903cf523df11be44ba7bd5b6a8b7b856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_System
+    second: {fileID: 2100000, guid: 79a7a5df7539d8c4caa38047ab7bee8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeletal_Skeleton
+    second: {fileID: 2100000, guid: 91c18bfb29f066a43882d561a4740fab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeletal_Skull
+    second: {fileID: 2100000, guid: 753bd73bc2c02334f8a1ecf8bdff92b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Urinary_System
+    second: {fileID: 2100000, guid: b0df00c25b4925345bda2d47d0b75b67, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BodyNoGenitals_diffuse
+    second: {fileID: 2800000, guid: ee4ae2ddc14b6854ea3918af21b04f26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BodyNoGenitals_normal
+    second: {fileID: 2800000, guid: ea9d712edbb548c41958a9fca96c3ec2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Brain.2png
+    second: {fileID: 2800000, guid: 5c98c2291e1268747817f6f2de68a869, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DigestiveSystem_diffuse
+    second: {fileID: 2800000, guid: 543a2438f3ba80f44865e0c278919ebf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Female_eye_diffuse
+    second: {fileID: 2800000, guid: 139b71d8c8907434797a3c638bbe3a97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head_diffuse
+    second: {fileID: 2800000, guid: ee2b8921058a44a4ea9ce115c18e57fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head_normal
+    second: {fileID: 2800000, guid: 71e300fecc687fa498757df34f13102f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Heart2_diffuse
+    second: {fileID: 2800000, guid: c9ac1116dc2d7cd469e365c664a5e010, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Heart_diffuse
+    second: {fileID: 2800000, guid: 631d7e559683642498e3976aa094ac6c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: LymphaticSystem_diffuse
+    second: {fileID: 2800000, guid: 65afa42abc7f0184ca33bdb54ee01914, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MuscularSystem_diffuse
+    second: {fileID: 2800000, guid: a2348d818f382554397b9f21c65198f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RespiratorySystem_diffuse
+    second: {fileID: 2800000, guid: b19d468da861b114f817df6873a34c9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_diffuse
+    second: {fileID: 2800000, guid: a4e48b9e651ab9f4fae4b608476ef325, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_normal
+    second: {fileID: 2800000, guid: 84793338a7612d449afb1e8829bc7a2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skull_diffuse
+    second: {fileID: 2800000, guid: 9f414b0d8c0bac14cbf08b26f85527ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Skull_normal
+    second: {fileID: 2800000, guid: 378d3608f046ee54d82cbace95fb55a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: UrinarySystem_diffuse
+    second: {fileID: 2800000, guid: 8946197a2ffcf23418b245748e4c92fe, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
