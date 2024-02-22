@@ -19,7 +19,7 @@ public class SubjectsManag : MonoBehaviour
     public IEnumerator Wait()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("HumanScene");
+        SceneManager.LoadScene("AnatomiyaMenu");
     }
 
 }
