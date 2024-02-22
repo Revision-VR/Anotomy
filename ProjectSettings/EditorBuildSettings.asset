@@ -14,10 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/AnatomiyaOrgans.unity
     guid: 7f81dd0877369644d9658775a635d032
-<<<<<<< Updated upstream
-=======
   - enabled: 1
     path: Assets/_Scenes/AnatomiyaBody.unity
     guid: 2970973c49c4a294a83e9922b72b2208
->>>>>>> Stashed changes
   m_configObjects: {}
