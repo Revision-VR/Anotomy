@@ -18,10 +18,23 @@ public class SceneChange : MonoBehaviour
         StartCoroutine(kutish());
       
     }
+    public void SceneAlmashuv1()
+    {
+        animator.SetInteger("Human", 5);
+        Button1.SetActive(false);
+        Button2.SetActive(false);
+        StartCoroutine(kutish1());
+
+    }
 
     IEnumerator kutish()
     {
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(2);
+    }
+    IEnumerator kutish1()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(3);
     }
 }
