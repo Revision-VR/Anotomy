@@ -195,6 +195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bc297435a306e4aa2606da8fad1b87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1452259117}
+  Button1: {fileID: 1948745691}
+  Button2: {fileID: 1080262577}
 --- !u!1 &451560257
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,7 +731,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8823592519252000266, guid: 6b14fe44fe87487479bcaffd0613183f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b14fe44fe87487479bcaffd0613183f, type: 3}
       propertyPath: m_LocalScale.x
@@ -748,7 +751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b14fe44fe87487479bcaffd0613183f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -204.39749
+      value: -204.3975
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b14fe44fe87487479bcaffd0613183f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -804,7 +807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404946463086557401, guid: 6b14fe44fe87487479bcaffd0613183f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 573652924370894594, guid: 6b14fe44fe87487479bcaffd0613183f, type: 3}
       propertyPath: m_IsActive
@@ -1203,7 +1206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b14fe44fe87487479bcaffd0613183f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -204.39749
+      value: -204.3975
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b14fe44fe87487479bcaffd0613183f, type: 3}
       propertyPath: m_LocalPosition.z
