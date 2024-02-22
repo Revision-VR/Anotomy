@@ -48,6 +48,7 @@ public class CanvasManager : MonoBehaviour
             obj.SetActive(false);
         }
 
+
         StartCoroutine(AnimationController());
     }
 
@@ -56,62 +57,28 @@ public class CanvasManager : MonoBehaviour
     {
         TurnOfAnim.SetActive(true);
         CanvasAnim.Play("CanvasAnim");
-        yield return new WaitForSeconds(1.5f);
-
-        StartCoroutine(PlayVideoAndSwitchObjects()); 
-    }
-
-    private IEnumerator PlayVideoAndSwitchObjects()
-    {
-        videoController.SetActive(true);
-        yield return StartCoroutine(WaitAndExecute());
-
+        yield return new WaitForSeconds(1f);
         TurnOfAnim.SetActive(false);
-        videoController.SetActive(false);
-
         StartCoroutine(AnimationController1());
         foreach (GameObject obj in JinsObjects)
         {
             obj.SetActive(true);
         }
     }
+
     private IEnumerator AnimationController1()
     {
         TurnOnAnim.SetActive(true);
         CanvasAnim.Play("TurnOnAnim");
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
     }
 
-
-    private IEnumerator WaitAndExecute()
-    {
-        yield return new WaitForSeconds(7f);
-    }
     private IEnumerator AnimationController2()
     {
         TurnOfAnim.SetActive(true);
         CanvasAnim.Play("CanvasAnim");
-        yield return new WaitForSeconds(1.5f);
-
-        StartCoroutine(PlayVideoAndSwitchObjects1());
-
-    }
-    public void OnOf1()
-    {
-        StartCoroutine(AnimationController2());
-        foreach (GameObject obj in JinsObjects)
-        {
-            obj.SetActive(false);
-        }
-    }
-  
-    private IEnumerator PlayVideoAndSwitchObjects1()
-    {
-        videoController1.SetActive(true);
-        yield return StartCoroutine(WaitAndExecute1());
+        yield return new WaitForSeconds(1f);
         TurnOfAnim.SetActive(false);
-
-        videoController1.SetActive(false);
 
         StartCoroutine(AnimationController1());
 
@@ -124,9 +91,12 @@ public class CanvasManager : MonoBehaviour
             obj.SetActive(true);
         }
     }
-
-    private IEnumerator WaitAndExecute1()
+    public void OnOf1()
     {
-        yield return new WaitForSeconds(4f);
+        StartCoroutine(AnimationController2());
+        foreach (GameObject obj in JinsObjects)
+        {
+            obj.SetActive(false);
+        }
     }
 }
