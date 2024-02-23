@@ -4523,6 +4523,8 @@ MonoBehaviour:
   choiceD: {fileID: 320566722}
   choiceF: {fileID: 919234928}
   choiceG: {fileID: 569779849}
+  TurnOnAnim: {fileID: 1669802470}
+  CanvasAnim: {fileID: 780894000}
   questionCounterText: {fileID: 115939234}
   feedbackText: {fileID: 453168763}
   correctAnswersText: {fileID: 594975339}
