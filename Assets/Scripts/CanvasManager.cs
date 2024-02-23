@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
@@ -18,6 +19,13 @@ public class CanvasManager : MonoBehaviour
     public Text ErrorIsm;
     public Text ErrorFamilya;
     [SerializeField] private GameObject[] _errorTexts;
+
+    public void Awake()
+    {
+        videoController.SetActive(true);
+        videoController.GetComponent<VideoPlayer>().Play();
+        StartCoroutine(Wait());
+    }
 
     public void Update()
     {
@@ -98,5 +106,11 @@ public class CanvasManager : MonoBehaviour
         {
             obj.SetActive(false);
         }
+    }
+   public IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(11f);
+        videoController.SetActive(false);
+        StartCoroutine(AnimationController1());
     }
 }
