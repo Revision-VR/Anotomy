@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class TestController : MonoBehaviour
 {
+    public Animator anim;
+    
     public Text questionText;
     public Button choiceA;
     public Button choiceB;
@@ -37,6 +39,7 @@ public class TestController : MonoBehaviour
 
     void Start()
     {
+        anim.Play("TurnOnAnim");
         InitializeQuestions();
         StartNewTest();
     }

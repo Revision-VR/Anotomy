@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/AnatomiyaBody.unity
     guid: 2970973c49c4a294a83e9922b72b2208
+  - enabled: 1
+    path: Assets/_Scenes/Test.unity
+    guid: 1106b878ddd5305479a472709c98be7b
   m_configObjects: {}
