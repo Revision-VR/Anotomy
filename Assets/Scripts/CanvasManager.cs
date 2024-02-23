@@ -74,7 +74,7 @@ public class CanvasManager : MonoBehaviour
         }
     }
 
-    private IEnumerator AnimationController1()
+    public IEnumerator AnimationController1()
     {
         TurnOnAnim.SetActive(true);
         CanvasAnim.Play("TurnOnAnim");

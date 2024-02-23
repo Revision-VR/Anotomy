@@ -6,6 +6,7 @@ public class TestSceneChange : MonoBehaviour
     public Animator changeAnim;
     public GameObject TurnOfAnim;
 
+
     public void Click()
     {
         StartCoroutine(AnimationController());
