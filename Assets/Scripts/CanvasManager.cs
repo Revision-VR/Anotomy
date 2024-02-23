@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
@@ -19,6 +20,11 @@ public class CanvasManager : MonoBehaviour
     public Text ErrorFamilya;
     [SerializeField] private GameObject[] _errorTexts;
 
+
+    public void Start()
+    {
+        StartCoroutine(Wait());
+    }
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return))
@@ -98,5 +104,12 @@ public class CanvasManager : MonoBehaviour
         {
             obj.SetActive(false);
         }
+    }
+
+    private IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(11);
+        videoController.SetActive(false);
+        CanvasAnim.Play("TurnOnAnim");
     }
 }
