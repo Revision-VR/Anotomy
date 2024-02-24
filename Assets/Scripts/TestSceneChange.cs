@@ -10,6 +10,7 @@ public class TestSceneChange : MonoBehaviour
     public void Click()
     {
         StartCoroutine(AnimationController());
+        
     }
 
     private IEnumerator AnimationController()
