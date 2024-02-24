@@ -3785,9 +3785,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 0fae47a7e60c3d347b65c8aef6daf7af, type: 2}
   - {fileID: 2100000, guid: 0fae47a7e60c3d347b65c8aef6daf7af, type: 2}
   - {fileID: 2100000, guid: 09044809c973d4e48aa7e0a5887ef9d0, type: 2}
-  _infoesUz: []
-  _infoesRu: []
-  _infoesEn: []
+  _infoes: []
   _infoesNames:
   - Miyya
   - Yurak
@@ -4335,7 +4333,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: a093780a76b8e8c4c8b121e123d21a82, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4019340d4c3bb024aafb23ca94134eae, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
