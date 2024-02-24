@@ -58,18 +58,12 @@ public class TestController : MonoBehaviour
         questions.Add(new Question(" Qon aylanish sistemasidagi markaziy a'zo qaysi?", "A"));
         questions.Add(new Question(" Qonning qon tomirlar bo'ylab uzluksiz harakatini taminlaydigan a'zo...", "A"));
         questions.Add(new Question(" Nafas olish a'zosi qaysi?", "A"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "A"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "B"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "S"));
-        //questions.Add(new Question(" Buyrak qanday a'zo?", "A"));
         questions.Add(new Question(" Ovqatni saqlaydigan va uni maydalaydigan a'zo qaysi?", "S"));
         questions.Add(new Question(" Me'dadan kegin keladigan odam a'zosini toping.", "S"));
         questions.Add(new Question(" Nok shaklidagi kichik organ qaysi?", "B"));
         questions.Add(new Question(" Safroni to'plash va qayta ishlash a'zosi .....", "B"));
         questions.Add(new Question(" Odam skeletining  asosiy qismi nima?", "S"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "A"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "B"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "S"));
+
 
         ShuffleQuestions();
     }

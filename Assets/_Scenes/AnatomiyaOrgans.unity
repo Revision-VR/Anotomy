@@ -3785,27 +3785,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 0fae47a7e60c3d347b65c8aef6daf7af, type: 2}
   - {fileID: 2100000, guid: 0fae47a7e60c3d347b65c8aef6daf7af, type: 2}
   - {fileID: 2100000, guid: 09044809c973d4e48aa7e0a5887ef9d0, type: 2}
-  _infoes:
-  - Miyya
-  - "Yurak \u2013 odamlarning qon aylanish sistemasidagi markaziy a\u02BCzo. U doimo
-    bir xilda qisqarib turishi tufayli, qonning qon tomirlar bo\u2018ylab uzluksiz
-    harakatini ta\u2018minlaydi."
-  - "O\u02BBpka \u2014 odamlarning nafas olish a\u02BCzosi va ko\u02BBkrak qafasining
-    ikkala tomonini ham to\u02BBldirib turadigan, katta yumshoq a\u02BCzo."
-  - "Jgar \u2014 organizmni detoksifikatsiya qilish, hazm qilish va o\u02BBsish uchun
-    zarur bo\u02BBlgan oqsillar va biokimyoviy moddalarni sintez qilish kabi ko\u02BBplab
-    muhim biologik funksiyalarni bajaradi."
-  - "Buyrak \u2014 (ren, grekchanephros) siydik ajratib chiqaruvchi juft a\u2019zo.
-    U loviyasimon shaklga ega."
-  - "Oshqozon \u2014 ovqat hazm qilish sistemasining kengaygan qismi.Oshqozonda ovqat
-    saqlanadi, maydalanadi va qisman hazm bo\u02BBladi."
-  - "Ichak \u2014 ovqat hazm qilish sistemasining bir bo\u02BBlimi hazm yo\u02BBlining
-    me\u02BCdadan keyin keladigan qismi."
-  - O't pufagi - jigar ostida, qorinning yuqori o'ng tomonida joylashgan nok shaklidagi
-    kichik organ. O't pufagining asosiy vazifasi safroni to'plash va saqlash.
-  - "Suyak \u2014 odam skeletining asosiy qismi. Suyak to\u02BBqimasi biriktiruvchi
-    to\u02BBqimaning bir xili. Suyak bo\u02BBg\u02BBimlar, boylamlar, muskullar va
-    o\u02BBziga birikkan paylar bilan birga tayanchharakat apparatini hosil qiladi."
+  _infoes: []
   _infoesNames:
   - Miyya
   - Yurak
@@ -4353,7 +4333,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: a093780a76b8e8c4c8b121e123d21a82, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4019340d4c3bb024aafb23ca94134eae, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
