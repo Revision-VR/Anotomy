@@ -16,6 +16,7 @@ public class TestController : MonoBehaviour
     public Button choiceD; 
     public Button choiceF; 
     public Button choiceG;
+    public Button Restart;
 
     public GameObject TurnOnAnim;
     public GameObject TurnOfAnim;
@@ -127,11 +128,15 @@ public class TestController : MonoBehaviour
         }
         else
         {
+
             feedbackText.text = ""; // Clear previous feedback
             correctAnswersText.text = "Correct Answers: " + correctAnswers + "/5";
             incorrectAnswersText.text = "Incorrect Answers: " + incorrectAnswers + "/5";
 
             // Disable all UI elements related to the test
+            Restart.gameObject.SetActive(true);
+            correctAnswersText.gameObject.SetActive(true);
+            incorrectAnswersText.gameObject.SetActive(true);
             questionText.gameObject.SetActive(false);
             choiceA.gameObject.SetActive(false);
             choiceB.gameObject.SetActive(false);
@@ -200,6 +205,32 @@ public class TestController : MonoBehaviour
         TurnOnAnim.SetActive(true);
         CanvasAnim.Play("TurnOnAnim");
         yield return new WaitForSeconds(1f);
+    }
+
+    public void RestartTest()
+    {
+        // Reset variables
+        currentQuestionIndex = 0;
+        correctAnswers = 0;
+        incorrectAnswers = 0;
+
+        // Reset UI elements
+        Restart.gameObject.SetActive(false);
+        correctAnswersText.gameObject.SetActive(false);
+        incorrectAnswersText.gameObject.SetActive(false);
+        questionText.gameObject.SetActive(true);
+        choiceA.gameObject.SetActive(true);
+        choiceB.gameObject.SetActive(true);
+        choiceS.gameObject.SetActive(true);
+        choiceD.gameObject.SetActive(false);
+        choiceF.gameObject.SetActive(false);
+        choiceG.gameObject.SetActive(false);
+        questionCounterText.gameObject.SetActive(true);
+        feedbackText.gameObject.SetActive(true);
+
+        ShuffleQuestions();
+        // Restart the test
+        StartNewTest();
     }
 
 
