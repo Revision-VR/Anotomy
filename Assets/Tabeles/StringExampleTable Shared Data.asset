@@ -39,6 +39,90 @@ MonoBehaviour:
     m_Key: ErrorFamilya
     m_Metadata:
       m_Items: []
+  - m_Id: 634318098300928
+    m_Key: Anatomiya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 634711133945856
+    m_Key: Matematika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 635020828770304
+    m_Key: Kimyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 635157391114240
+    m_Key: Tarix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 635369518039040
+    m_Key: Astronomiya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 635473914265600
+    m_Key: Fizika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638353450762240
+    m_Key: Miya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638570833149952
+    m_Key: Yurak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 638800899112960
+    m_Key: Test
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639371454480384
+    m_Key: O'pka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 639743556354048
+    m_Key: Jigar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640046880030720
+    m_Key: Buyrak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640440909725696
+    m_Key: Oshqozon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 640801351434240
+    m_Key: Ichak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641129006268416
+    m_Key: O't pufagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 641371873247232
+    m_Key: Suyak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 658314075176960
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 658859607326720
+    m_Key: Muskullar tizimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659155075072000
+    m_Key: Skeletlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659494750781440
+    m_Key: Limfa tizimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 659957743222784
+    m_Key: Qon tomirlari
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

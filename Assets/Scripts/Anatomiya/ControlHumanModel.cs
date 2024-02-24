@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
 
 public class ControlHumanModel : MonoBehaviour
 {
@@ -25,11 +22,26 @@ public class ControlHumanModel : MonoBehaviour
     private Material[] _organMaterials;
 
 
+
     [SerializeField]
     private string[] _infoes;
 
     [SerializeField]
+    private string[] _infoesRu;
+
+    [SerializeField]
+    private string[] _infoesEn;
+
+
+
+    [SerializeField]
     private string[] _infoesNames;
+
+    [SerializeField]
+    private string[] _infoesNamesRu;
+
+    [SerializeField]
+    private string[] _infoesNamesEn;
 
 
     [SerializeField]
@@ -54,7 +66,7 @@ public class ControlHumanModel : MonoBehaviour
     private bool doubleClick = true;
     private bool canRotate;
 
-
+    public string _language;
 
     int rotationY = 0;
 
@@ -75,7 +87,7 @@ public class ControlHumanModel : MonoBehaviour
                 offset = Input.mousePosition - Camera.main.WorldToScreenPoint(dragging.position);
 
                 ShowInfo(hit.transform.GetSiblingIndex());
-                
+
                 if (doubleClick)
                 {
                     Invoke(nameof(StopDoubleClick), 0.3f);
@@ -115,6 +127,14 @@ public class ControlHumanModel : MonoBehaviour
     {
         doubleClick = true;
     }
+
+
+    private void Start()
+    {
+        _language = PlayerPrefs.GetString("Language");
+    }
+
+
 
 
 
@@ -189,12 +209,27 @@ public class ControlHumanModel : MonoBehaviour
 
     }
 
-
+    
 
     void ShowInfo(int index)
     {
-        _infoName.text = _infoesNames[index];
-        _infoText.text = _infoes[index];
+        switch (_language)
+        {
+            case "uz":
+                _infoName.text = _infoesNames[index];
+                _infoText.text = _infoes[index];
+                break;
+
+            case "ru":
+                _infoName.text = _infoesNamesRu[index];
+                _infoText.text = _infoesRu[index];
+                break;
+
+            case "en":
+                _infoName.text = _infoesNamesEn[index];
+                _infoText.text = _infoesEn[index];
+                break;
+        }
     }
 
 
