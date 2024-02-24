@@ -1,8 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Collections;
+using System.Xml.Serialization;
 
 public class TestController : MonoBehaviour
 {
@@ -15,6 +18,7 @@ public class TestController : MonoBehaviour
     public Button choiceG;
 
     public GameObject TurnOnAnim;
+    public GameObject TurnOfAnim;
     public Animator CanvasAnim;
 
 
@@ -132,6 +136,9 @@ public class TestController : MonoBehaviour
             choiceA.gameObject.SetActive(false);
             choiceB.gameObject.SetActive(false);
             choiceS.gameObject.SetActive(false);
+            choiceD.gameObject.SetActive(false);
+            choiceF.gameObject.SetActive(false);
+            choiceG.gameObject.SetActive(false);
             questionCounterText.gameObject.SetActive(false);
             feedbackText.gameObject.SetActive(false);
 
@@ -172,6 +179,20 @@ public class TestController : MonoBehaviour
 
         // Display feedback for a short duration, then show the next question
         Invoke("ShowNextQuestion", 1f); // Adjust the duration as needed
+    }
+
+    public void Back()
+    {
+        StartCoroutine(AnimationController());
+    }
+
+    private IEnumerator AnimationController()
+    {
+        TurnOfAnim.SetActive(true);
+        CanvasAnim.Play("CanvasAnim");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(2);
+
     }
 
     public IEnumerator AnimationController1()
