@@ -5,6 +5,12 @@ public class TestSceneChange : MonoBehaviour
 {
     public Animator changeAnim;
     public GameObject TurnOfAnim;
+    public GameObject TurnOnAnim;
+
+    public void Start()
+    {
+        StartCoroutine(AnimationController1());
+    }
 
 
     public void Click()
@@ -19,6 +25,12 @@ public class TestSceneChange : MonoBehaviour
         changeAnim.Play("CanvasAnim");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(4);
+    }
 
+    public IEnumerator AnimationController1()
+    {
+        TurnOnAnim.SetActive(true);
+        changeAnim.Play("TurnOnAnim");
+        yield return new WaitForSeconds(1f);
     }
 }
