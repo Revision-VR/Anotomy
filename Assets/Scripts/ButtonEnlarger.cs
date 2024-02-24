@@ -40,7 +40,7 @@ public class ButtonEnlarger : MonoBehaviour
     public void OnExit()
     {
         Fizika.transform.rotation = originalRotations[0];
-        // FizikaAnim.SetInteger("Fizika", 2);
+       // FizikaAnim.SetInteger("Fizika", 2);
     }
 
 
