@@ -1,8 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Collections;
+using System.Xml.Serialization;
 
 public class TestController : MonoBehaviour
 {
@@ -13,8 +16,10 @@ public class TestController : MonoBehaviour
     public Button choiceD; 
     public Button choiceF; 
     public Button choiceG;
+    public Button Restart;
 
     public GameObject TurnOnAnim;
+    public GameObject TurnOfAnim;
     public Animator CanvasAnim;
 
 
@@ -53,18 +58,12 @@ public class TestController : MonoBehaviour
         questions.Add(new Question(" Qon aylanish sistemasidagi markaziy a'zo qaysi?", "A"));
         questions.Add(new Question(" Qonning qon tomirlar bo'ylab uzluksiz harakatini taminlaydigan a'zo...", "A"));
         questions.Add(new Question(" Nafas olish a'zosi qaysi?", "A"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "A"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "B"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "S"));
-        //questions.Add(new Question(" Buyrak qanday a'zo?", "A"));
         questions.Add(new Question(" Ovqatni saqlaydigan va uni maydalaydigan a'zo qaysi?", "S"));
         questions.Add(new Question(" Me'dadan kegin keladigan odam a'zosini toping.", "S"));
         questions.Add(new Question(" Nok shaklidagi kichik organ qaysi?", "B"));
         questions.Add(new Question(" Safroni to'plash va qayta ishlash a'zosi .....", "B"));
         questions.Add(new Question(" Odam skeletining  asosiy qismi nima?", "S"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "A"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "B"));
-        //questions.Add(new Question(" Bu qaysi a'zo?", "S"));
+
 
         ShuffleQuestions();
     }
@@ -123,15 +122,22 @@ public class TestController : MonoBehaviour
         }
         else
         {
+
             feedbackText.text = ""; // Clear previous feedback
             correctAnswersText.text = "Correct Answers: " + correctAnswers + "/5";
             incorrectAnswersText.text = "Incorrect Answers: " + incorrectAnswers + "/5";
 
             // Disable all UI elements related to the test
+            Restart.gameObject.SetActive(true);
+            correctAnswersText.gameObject.SetActive(true);
+            incorrectAnswersText.gameObject.SetActive(true);
             questionText.gameObject.SetActive(false);
             choiceA.gameObject.SetActive(false);
             choiceB.gameObject.SetActive(false);
             choiceS.gameObject.SetActive(false);
+            choiceD.gameObject.SetActive(false);
+            choiceF.gameObject.SetActive(false);
+            choiceG.gameObject.SetActive(false);
             questionCounterText.gameObject.SetActive(false);
             feedbackText.gameObject.SetActive(false);
 
@@ -174,11 +180,51 @@ public class TestController : MonoBehaviour
         Invoke("ShowNextQuestion", 1f); // Adjust the duration as needed
     }
 
+    public void Back()
+    {
+        StartCoroutine(AnimationController());
+    }
+
+    private IEnumerator AnimationController()
+    {
+        TurnOfAnim.SetActive(true);
+        CanvasAnim.Play("CanvasAnim");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(2);
+
+    }
+
     public IEnumerator AnimationController1()
     {
         TurnOnAnim.SetActive(true);
         CanvasAnim.Play("TurnOnAnim");
         yield return new WaitForSeconds(1f);
+    }
+
+    public void RestartTest()
+    {
+        // Reset variables
+        currentQuestionIndex = 0;
+        correctAnswers = 0;
+        incorrectAnswers = 0;
+
+        // Reset UI elements
+        Restart.gameObject.SetActive(false);
+        correctAnswersText.gameObject.SetActive(false);
+        incorrectAnswersText.gameObject.SetActive(false);
+        questionText.gameObject.SetActive(true);
+        choiceA.gameObject.SetActive(true);
+        choiceB.gameObject.SetActive(true);
+        choiceS.gameObject.SetActive(true);
+        choiceD.gameObject.SetActive(false);
+        choiceF.gameObject.SetActive(false);
+        choiceG.gameObject.SetActive(false);
+        questionCounterText.gameObject.SetActive(true);
+        feedbackText.gameObject.SetActive(true);
+
+        ShuffleQuestions();
+        // Restart the test
+        StartNewTest();
     }
 
 
