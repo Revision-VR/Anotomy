@@ -367,7 +367,7 @@ MonoBehaviour:
     m_Options:
     - m_Text: English
       m_Image: {fileID: 0}
-    - m_Text: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+    - m_Text: Russian
       m_Image: {fileID: 0}
     - m_Text: O'zbek
       m_Image: {fileID: 0}
@@ -519,7 +519,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 655d18ffc0e6e98478ef34fab7b92e4b, type: 3}
+    m_Font: {fileID: 12800000, guid: 19778333e7cbfb647b0665be35b39f64, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
@@ -1573,9 +1573,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kimyo
+  m_text: English
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1639,7 +1639,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &463983598
@@ -2087,8 +2087,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: English
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3151,9 +3151,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Astronomiya
+  m_text: English
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3217,7 +3217,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &902679557
@@ -3520,7 +3520,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 655d18ffc0e6e98478ef34fab7b92e4b, type: 3}
+    m_Font: {fileID: 12800000, guid: 19778333e7cbfb647b0665be35b39f64, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -4021,7 +4021,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 655d18ffc0e6e98478ef34fab7b92e4b, type: 3}
+    m_Font: {fileID: 12800000, guid: 19778333e7cbfb647b0665be35b39f64, type: 3}
     m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
@@ -4101,11 +4101,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Fizika
-
-'
+  m_text: English
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4169,7 +4167,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1172849247
@@ -4884,7 +4882,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Option A
+  m_text: English
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5414,7 +5412,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 19778333e7cbfb647b0665be35b39f64, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -5536,8 +5534,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tarix
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
-  m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5995,7 +5993,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Matematika
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6059,7 +6057,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1588548337
@@ -6530,9 +6528,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Anatomiya
+  m_text: English
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6596,7 +6594,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -56.516464, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1642290772
@@ -6733,7 +6731,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 19778333e7cbfb647b0665be35b39f64, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -6852,7 +6850,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 655d18ffc0e6e98478ef34fab7b92e4b, type: 3}
+    m_Font: {fileID: 12800000, guid: 19778333e7cbfb647b0665be35b39f64, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -7828,7 +7826,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 655d18ffc0e6e98478ef34fab7b92e4b, type: 3}
+    m_Font: {fileID: 12800000, guid: 19778333e7cbfb647b0665be35b39f64, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
