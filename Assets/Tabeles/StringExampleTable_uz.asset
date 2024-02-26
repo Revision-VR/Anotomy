@@ -42,6 +42,32 @@ MonoBehaviour:
     m_Localized: Iltimos,Familyangizni kiriting!
     m_Metadata:
       m_Items: []
+  - m_Id: 1376424953647104
+    m_Localized: Anatomiya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376565320224768
+    m_Localized: Matematika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376636812136448
+    m_Localized: Kimyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1377060566863872
+    m_Localized: Tarix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1377151188996096
+    m_Localized: Astronomiya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1377252317859840
+    m_Localized: 'Fizika
+
+'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

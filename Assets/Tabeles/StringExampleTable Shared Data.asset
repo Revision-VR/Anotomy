@@ -39,6 +39,30 @@ MonoBehaviour:
     m_Key: ErrorFamilya
     m_Metadata:
       m_Items: []
+  - m_Id: 1376424953647104
+    m_Key: Anatomiya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376565320224768
+    m_Key: Matematika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1376636812136448
+    m_Key: Kimyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1377060566863872
+    m_Key: Tarix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1377151188996096
+    m_Key: Astronomiya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1377252317859840
+    m_Key: Fizika
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
