@@ -100,6 +100,22 @@ MonoBehaviour:
     m_Localized: 'Suyak '
     m_Metadata:
       m_Items: []
+  - m_Id: 1404814708445184
+    m_Localized: Muskullar tizimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405119953113088
+    m_Localized: Skeletlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405211682541568
+    m_Localized: Limfa tizimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405387621011456
+    m_Localized: Qon tomirlari
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
