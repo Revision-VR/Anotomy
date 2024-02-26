@@ -194,7 +194,7 @@ public class ControlHumanModel : MonoBehaviour
     void ShowInfo(int index)
     {
         _infoName.text = _infoesNames[index];
-        _infoText.text = _infoes[index];
+        //_infoText.text = _infoes[index];
     }
 
 

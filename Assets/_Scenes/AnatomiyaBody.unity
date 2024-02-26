@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -489,7 +488,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!4 &347953596
 Transform:
   m_ObjectHideFlags: 0
@@ -1050,10 +1048,6 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1102,12 +1096,6 @@ RectTransform:
   - {fileID: 301556328}
   - {fileID: 1667988552}
   - {fileID: 1534865382}
-  - {fileID: 916536337}
-  - {fileID: 921534119}
-  - {fileID: 1003883173}
-  - {fileID: 1911058040}
-  - {fileID: 301556328}
-  - {fileID: 1667988552}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1239,10 +1227,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 10.903999}
-  m_SizeDelta: {x: 56.522, y: 59.171}
-  m_AnchoredPosition: {x: 0, y: 14.832001}
-  m_SizeDelta: {x: 34.855, y: 51.316}
+  m_AnchoredPosition: {x: 33.972, y: 10.903999}
+  m_SizeDelta: {x: 124.466, y: 59.171}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783465634
 MonoBehaviour:
@@ -1264,8 +1250,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 056c2f6c27a30224b8b967993c5c8a22, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1430,7 +1416,6 @@ GameObject:
   - component: {fileID: 916536338}
   m_Layer: 5
   m_Name: DigestiveSystemButton
-  m_Name: Button (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1444,13 +1429,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916536336}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1534865382}
-  m_Father: {fileID: 511232886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1565,7 +1548,6 @@ GameObject:
   - component: {fileID: 921534120}
   m_Layer: 5
   m_Name: SkeletalSternumButton
-  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1579,13 +1561,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921534118}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1534865382}
-  m_Father: {fileID: 511232886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1704,7 +1684,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!4 &996914473
 Transform:
   m_ObjectHideFlags: 0
@@ -1784,7 +1763,6 @@ GameObject:
   - component: {fileID: 1003883174}
   m_Layer: 5
   m_Name: LymphaticSystemButton
-  m_Name: Button (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1798,13 +1776,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003883172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1534865382}
-  m_Father: {fileID: 511232886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1923,7 +1899,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!4 &1056131732
 Transform:
   m_ObjectHideFlags: 0
@@ -2244,7 +2219,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!4 &1301295985
 Transform:
   m_ObjectHideFlags: 0
@@ -2371,12 +2345,9 @@ MonoBehaviour:
     ega bo'lmagan qonni to'playdi va uni yurakka qaytaradi. Tomirlar qon aylanish
     tizimingizning bir qismidir. Ular qonning harakatlanishini ta'minlash uchun boshqa
     qon tomirlari va yuragingiz bilan birgalikda ishlaydi.
-  m_text: "Yurak \u2013 odam va hayvonlarning qon aylanish sistemasidagi markaziy
-    a\u02BCzo. U doimo bir xilda qisqarib turishi tufayli, qonning qon tomirlar bo\u2018ylab
-    uzluksiz harakatini ta\u2018minlaydi."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e29856af87b335429757e3a0821e64f, type: 2}
-  m_sharedMaterial: {fileID: -365215968614836222, guid: 7e29856af87b335429757e3a0821e64f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2436,8 +2407,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -61.69963, y: 68.40646, z: -62.58296, w: 72.475395}
-  m_margin: {x: -51.898266, y: 68.40646, z: -51.508587, w: 72.475395}
+  m_margin: {x: -61.69963, y: 68.40646, z: -128.87256, w: 72.475395}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2485,9 +2455,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 68.4}
-  m_SizeDelta: {x: 121.619, y: 21.972}
-  m_SizeDelta: {x: 63.498, y: 21.972}
+  m_AnchoredPosition: {x: 33.538, y: 68.4}
+  m_SizeDelta: {x: 188.696, y: 21.972}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1413325948
 MonoBehaviour:
@@ -2510,10 +2479,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Muskullar tizimi
-  m_text: Yurak
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7e29856af87b335429757e3a0821e64f, type: 2}
-  m_sharedMaterial: {fileID: -365215968614836222, guid: 7e29856af87b335429757e3a0821e64f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2539,8 +2507,6 @@ MonoBehaviour:
     rgba: 4294967295
   m_fontSize: 14
   m_fontSizeBase: 14
-  m_fontSize: 15
-  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2575,7 +2541,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 1.0882492, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2899,7 +2865,6 @@ GameObject:
   - component: {fileID: 1667988553}
   m_Layer: 5
   m_Name: BackButton
-  m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3033,7 +2998,6 @@ GameObject:
   - component: {fileID: 1911058041}
   m_Layer: 5
   m_Name: CirculatoryVeinsButton
-  m_Name: Button (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3047,13 +3011,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911058039}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1534865382}
-  m_Father: {fileID: 511232886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3172,7 +3134,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!4 &1956837913
 Transform:
   m_ObjectHideFlags: 0
@@ -3342,7 +3303,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!4 &1999377167
 Transform:
   m_ObjectHideFlags: 0
@@ -3599,7 +3559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: a093780a76b8e8c4c8b121e123d21a82, type: 3}
+  m_Texture: {fileID: 2800000, guid: 4019340d4c3bb024aafb23ca94134eae, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -3745,7 +3705,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!1 &694662663343153079
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,7 +3723,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!23 &749302611563466002
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3940,7 +3898,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!33 &2612173642968577514
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4062,7 +4019,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!4 &3688203908483317580
 Transform:
   m_ObjectHideFlags: 0
@@ -4104,7 +4060,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!23 &3844190648045536636
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4203,7 +4158,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-  m_IsActive: 1
 --- !u!23 &4680133697159931197
 MeshRenderer:
   m_ObjectHideFlags: 0
