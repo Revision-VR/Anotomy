@@ -95,6 +95,22 @@ MonoBehaviour:
     m_Key: 'Suyak '
     m_Metadata:
       m_Items: []
+  - m_Id: 1404814708445184
+    m_Key: Muskullar tizimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405119953113088
+    m_Key: Skeletlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405211682541568
+    m_Key: Limfa tizimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1405387621011456
+    m_Key: Qon tomirlari
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
