@@ -68,6 +68,38 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 1395743431331840
+    m_Localized: 'Yurak '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395821143396352
+    m_Localized: "O\u02BBpka "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395918002458624
+    m_Localized: Jigar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396027977109504
+    m_Localized: 'Buyrak '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396124303495168
+    m_Localized: 'Oshqozon '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396258886127616
+    m_Localized: 'Ichak '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396379816300544
+    m_Localized: 'O''t pufagi '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396606384214016
+    m_Localized: 'Suyak '
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

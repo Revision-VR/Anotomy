@@ -67,7 +67,7 @@ public class ControlHumanModel : MonoBehaviour
     private bool doubleClick = true;
     private bool canRotate;
 
-    public string _language;
+     string _language;
 
     int rotationY = 0;
 
@@ -75,11 +75,12 @@ public class ControlHumanModel : MonoBehaviour
     {
         _language = PlayerPrefs.GetString("Language");
     }
+   
 
 
     private void Update()
     {
-
+        //_language = PlayerPrefs.GetString("Language");
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -211,8 +212,8 @@ public class ControlHumanModel : MonoBehaviour
 
     void ShowInfo(int index)
     {
-        _infoName.text = _infoesNames[index];
-        _infoText.text = _infoes[index];
+        //_infoName.text = _infoesNames[index];
+        //_infoText.text = _infoes[index];
 
 
         switch (_language)

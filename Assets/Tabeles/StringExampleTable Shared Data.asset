@@ -63,6 +63,38 @@ MonoBehaviour:
     m_Key: Fizika
     m_Metadata:
       m_Items: []
+  - m_Id: 1395743431331840
+    m_Key: 'Yurak '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395821143396352
+    m_Key: "O\u02BBpka "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395918002458624
+    m_Key: 'Jigar '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396027977109504
+    m_Key: 'Buyrak '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396124303495168
+    m_Key: 'Oshqozon '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396258886127616
+    m_Key: 'Ichak '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396379816300544
+    m_Key: 'O''t pufagi '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396606384214016
+    m_Key: 'Suyak '
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
