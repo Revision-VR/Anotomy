@@ -30,6 +30,7 @@ public class HumanBodyController : MonoBehaviour
     {
 
         _language = PlayerPrefs.GetString("Language");
+
         if (_language ==null)
         {
             _language = "en";

@@ -74,10 +74,14 @@ public class ControlHumanModel : MonoBehaviour
     private void Start()
     {
         _language = PlayerPrefs.GetString("Language");
-        if (_language == null )
+
+        if ( _language == null )
         {
             _language = "en";
         }
+
+        ShowInfo(1);
+
     }
    
 

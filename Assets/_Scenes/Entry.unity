@@ -5532,10 +5532,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tarix
+  m_text: "\u0418\u0441\u0442\u043E\u0440\u0438\u044F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
-  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ca63510bdbc50ba4aa7038054b71878f, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: ca63510bdbc50ba4aa7038054b71878f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

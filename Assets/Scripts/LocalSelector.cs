@@ -6,6 +6,8 @@ public class LocalSelector : MonoBehaviour
 {
     private bool active = false;
 
+
+
     public void ChangeLocale(int localeID)
     {
         if (active)
@@ -24,7 +26,6 @@ public class LocalSelector : MonoBehaviour
         else if (localeID == 2)
         {
             PlayerPrefs.SetString("Language", "uz");
-
         }
 
     }
