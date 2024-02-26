@@ -194,6 +194,7 @@ MonoBehaviour:
   videoController1: {fileID: 1596561904}
   TurnOfAnim: {fileID: 450854260}
   TurnOnAnim: {fileID: 120296956}
+  LanguageDown: {fileID: 1187780239}
   CanvasAnim: {fileID: 794275333}
   CanvasAnim1: {fileID: 794275333}
   ErrorIsm: {fileID: 1736860323}

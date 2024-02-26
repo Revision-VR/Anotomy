@@ -14,6 +14,7 @@ public class CanvasManager : MonoBehaviour
     public GameObject videoController1;
     public GameObject TurnOfAnim;
     public GameObject TurnOnAnim;
+    public GameObject LanguageDown;
     public Animator CanvasAnim;
     public Animator CanvasAnim1;
     public Text ErrorIsm;
@@ -55,6 +56,8 @@ public class CanvasManager : MonoBehaviour
         {
             obj.SetActive(false);
         }
+
+        LanguageDown.SetActive(false);
 
 
         StartCoroutine(AnimationController());
