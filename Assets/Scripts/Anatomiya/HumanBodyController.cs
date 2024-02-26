@@ -28,7 +28,12 @@ public class HumanBodyController : MonoBehaviour
 
     private void Start()
     {
+
         _language = PlayerPrefs.GetString("Language");
+        if (_language ==null)
+        {
+            _language = "en";
+        }
     }
 
     public void PlayAnimations(int index)

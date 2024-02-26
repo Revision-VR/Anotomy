@@ -5,6 +5,7 @@ using UnityEngine.Localization.Settings;
 public class LocalSelector : MonoBehaviour
 {
     private bool active = false;
+
     public void ChangeLocale(int localeID)
     {
         if (active)
