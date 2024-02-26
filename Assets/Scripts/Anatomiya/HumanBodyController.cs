@@ -71,7 +71,7 @@ public class HumanBodyController : MonoBehaviour
                     _bodyButtons.SetActive(false);
                     break;
             }
-            
+
         }
         else
         {
