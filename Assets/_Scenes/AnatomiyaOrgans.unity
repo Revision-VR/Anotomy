@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -547,7 +547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -915,7 +915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1678,7 +1678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.11764707, g: 0.11764707, b: 0.11764707, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2097,7 +2097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2779,7 +2779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -232.06201}
+  m_AnchoredPosition: {x: 0, y: -280.17508}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &980354439
@@ -2816,21 +2816,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0416\u0435\u043B\u0443\u0434\u043E\u043A \u2013 \u0432 \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445
-    \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A\u0430\u0445 \u0435\u0433\u043E
-    \u043D\u0430\u0437\u044B\u0432\u0430\u044E\u0442 \u043C\u0435\u0434\u043E\u0439.
-    \u0416\u0435\u043B\u0443\u0434\u043E\u043A \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F
-    \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u043D\u044B\u043C \u043E\u0442\u0434\u0435\u043B\u043E\u043C
-    \u043F\u0438\u0449\u0435\u0432\u0430\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0439
-    \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u044F\u0435\u0442
-    \u0437\u0430\u0434\u0430\u0447\u0438 \u043F\u043E \u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044E,
-    \u0441\u043C\u0435\u0448\u0438\u0432\u0430\u043D\u0438\u044E, \u0438\u0437\u043C\u0435\u043B\u044C\u0447\u0435\u043D\u0438\u044E,
-    \u0447\u0430\u0441\u0442\u0438\u0447\u043D\u043E\u043C\u0443 \u043F\u0435\u0440\u0435\u0432\u0430\u0440\u0438\u0432\u0430\u043D\u0438\u044E
-    \u043F\u043E\u0442\u0440\u0435\u0431\u043B\u044F\u0435\u043C\u043E\u0439 \u043F\u0438\u0449\u0438
-    \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u0441\u043E\u043B\u044F\u043D\u043E\u0439
-    \u043A\u0438\u0441\u043B\u043E\u0442\u044B \u0438 \u0436\u0435\u043B\u0443\u0434\u043E\u0447\u043D\u043E\u0433\u043E
-    \u0441\u043E\u043A\u0430 \u0438 \u043F\u0435\u0440\u0435\u043D\u043E\u0441\u0443
-    \u0435\u0435 \u0432 \u043A\u0438\u0448\u0435\u0447\u043D\u0438\u043A. "
+  m_text: "\u041B\u0435\u0433\u043A\u0438\u0435 \u2014 \u044D\u0442\u043E \u043E\u0440\u0433\u0430\u043D\u044B
+    \u0434\u044B\u0445\u0430\u043D\u0438\u044F, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+    \u0437\u0430\u043F\u043E\u043B\u043D\u044F\u044E\u0442 \u043E\u0431\u0435 \u0441\u0442\u043E\u0440\u043E\u043D\u044B
+    \u0433\u0440\u0443\u0434\u043D\u043E\u0439 \u043A\u043B\u0435\u0442\u043A\u0438,
+    \u0447\u0435\u0440\u0435\u0437 \u0430\u043B\u044C\u0432\u0435\u043E\u043B\u044B
+    \u200B\u200B\u043B\u0435\u0433\u043A\u0438\u0445 \u043A\u0438\u0441\u043B\u043E\u0440\u043E\u0434
+    \u0432\u043E\u0437\u0434\u0443\u0445\u0430 \u043F\u043E\u0441\u0442\u0443\u043F\u0430\u0435\u0442
+    \u0432 \u043A\u0440\u043E\u0432\u044C, \u0430 \u0443\u0433\u043B\u0435\u043A\u0438\u0441\u043B\u044B\u0439
+    \u0433\u0430\u0437, \u043D\u0430\u0445\u043E\u0434\u044F\u0449\u0438\u0439\u0441\u044F
+    \u0432 \u043A\u0440\u043E\u0432\u0438, \u043F\u043E\u0441\u0442\u0443\u043F\u0430\u0435\u0442
+    \u0432 \u0432\u043E\u0437\u0434\u0443\u0445. \u0410\u043B\u044C\u0432\u0435\u043E\u043B\u044B
+    \u200B\u200B\u043B\u0435\u0433\u043A\u0438\u0445 \u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u044B
+    \u0441 \u043A\u0430\u043F\u0438\u043B\u043B\u044F\u0440\u043D\u044B\u043C\u0438
+    \u0441\u043E\u0441\u0443\u0434\u0430\u043C\u0438, \u0438 \u043A\u0440\u043E\u0432\u044C
+    \u043E\u0431\u043E\u0433\u0430\u0449\u0430\u0435\u0442\u0441\u044F \u043A\u0438\u0441\u043B\u043E\u0440\u043E\u0434\u043E\u043C
+    \u0437\u0430 \u0441\u0447\u0435\u0442 \u0434\u0435\u044F\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438
+    \u043B\u0435\u0433\u043A\u0438\u0445. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
@@ -2863,7 +2865,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -3163,8 +3165,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 195197676}
   m_HandleRect: {fileID: 195197675}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.46736285
+  m_Value: 1.0000001
+  m_Size: 0.3907782
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3718,8 +3720,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -692.88794, y: -26.186981}
-  m_SizeDelta: {x: 379.22406, y: 324.24597}
+  m_AnchoredPosition: {x: -692.88794, y: -50.09201}
+  m_SizeDelta: {x: 379.224, y: 276.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1213413235
 MonoBehaviour:
@@ -3871,8 +3873,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1571014895}
   m_HandleRect: {fileID: 1571014894}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.99999994
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3965,7 +3967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4044,7 +4046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4403,7 +4405,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -693.0101, y: 273}
+  m_AnchoredPosition: {x: -693.0101, y: 260}
   m_SizeDelta: {x: 523.09, y: 155.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1413325948
@@ -4426,7 +4428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Yurak
+  m_text: "\u0416\u0435\u043B\u0447\u043D\u044B\u0439 \u043F\u0443\u0437\u044B\u0440\u044C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
@@ -4435,8 +4437,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287845207
-  m_fontColor: {r: 0.34117648, g: 0.3254902, b: 0.5764706, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4453,8 +4455,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
-  m_fontSizeBase: 90
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4799,8 +4801,8 @@ MonoBehaviour:
   - "\u041B\u0435\u0433\u043A\u0438\u0435 \u2014 \u044D\u0442\u043E \u043E\u0440\u0433\u0430\u043D\u044B
     \u0434\u044B\u0445\u0430\u043D\u0438\u044F, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
     \u0437\u0430\u043F\u043E\u043B\u043D\u044F\u044E\u0442 \u043E\u0431\u0435 \u0441\u0442\u043E\u0440\u043E\u043D\u044B
-    \u0433\u0440\u0443\u0434\u043D\u043E\u0439 \u043A\u043B\u0435\u0442\u043A\u0438.
-    \u0427\u0435\u0440\u0435\u0437 \u0430\u043B\u044C\u0432\u0435\u043E\u043B\u044B
+    \u0433\u0440\u0443\u0434\u043D\u043E\u0439 \u043A\u043B\u0435\u0442\u043A\u0438,
+    \u0447\u0435\u0440\u0435\u0437 \u0430\u043B\u044C\u0432\u0435\u043E\u043B\u044B
     \u200B\u200B\u043B\u0435\u0433\u043A\u0438\u0445 \u043A\u0438\u0441\u043B\u043E\u0440\u043E\u0434
     \u0432\u043E\u0437\u0434\u0443\u0445\u0430 \u043F\u043E\u0441\u0442\u0443\u043F\u0430\u0435\u0442
     \u0432 \u043A\u0440\u043E\u0432\u044C, \u0430 \u0443\u0433\u043B\u0435\u043A\u0438\u0441\u043B\u044B\u0439
@@ -5066,7 +5068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6009,7 +6011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6625,7 +6627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6915,7 +6917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.34170455, g: 0.32571733, b: 0.5773585, a: 1}
+  m_Color: {r: 0.25882354, g: 0.25882354, b: 0.25882354, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
