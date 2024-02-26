@@ -51,10 +51,6 @@ MonoBehaviour:
     m_Key: Kimyo
     m_Metadata:
       m_Items: []
-  - m_Id: 1377060566863872
-    m_Key: Tarix
-    m_Metadata:
-      m_Items: []
   - m_Id: 1377151188996096
     m_Key: Astronomiya
     m_Metadata:
@@ -109,6 +105,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1405387621011456
     m_Key: Qon tomirlari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1438404318072832
+    m_Key: Tarix
     m_Metadata:
       m_Items: []
   m_Metadata:
