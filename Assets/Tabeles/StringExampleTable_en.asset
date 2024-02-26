@@ -66,6 +66,38 @@ MonoBehaviour:
     m_Localized: Physics
     m_Metadata:
       m_Items: []
+  - m_Id: 1395743431331840
+    m_Localized: Heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395821143396352
+    m_Localized: Lungs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1395918002458624
+    m_Localized: Liver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396027977109504
+    m_Localized: 'Kidney '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396124303495168
+    m_Localized: 'Stomach '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396258886127616
+    m_Localized: 'Intestine '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396379816300544
+    m_Localized: 'Gallbladder '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396606384214016
+    m_Localized: 'Bone '
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

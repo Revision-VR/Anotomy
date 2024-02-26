@@ -10,6 +10,22 @@ public class LocalSelector : MonoBehaviour
         if (active)
             return;
         StartCoroutine(SetLocale(localeID));
+
+        if (localeID == 0)
+        {
+            PlayerPrefs.SetString("Language", "en");
+        }
+        else if (localeID == 1)
+        {
+            PlayerPrefs.SetString("Language", "ru");
+
+        }
+        else if (localeID == 2)
+        {
+            PlayerPrefs.SetString("Language", "uz");
+
+        }
+
     }
 
 
