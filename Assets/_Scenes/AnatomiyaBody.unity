@@ -275,8 +275,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Qon tomirlari
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -501,9 +501,9 @@ RectTransform:
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 783465633}
   - {fileID: 1413325947}
   - {fileID: 1356201029}
-  - {fileID: 783465633}
   m_Father: {fileID: 511232886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -928,8 +928,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1419,8 +1419,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 25.278, y: 0.87400055}
-  m_SizeDelta: {x: 107.08, y: 23.541}
+  m_AnchoredPosition: {x: 25.278, y: 2.6869965}
+  m_SizeDelta: {x: 107.08, y: 27.167}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783465634
 MonoBehaviour:
@@ -2533,13 +2533,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tomirlar - bu tanangiz bo'ylab joylashgan qon tomirlari bo'lib, ular kislorodga
-    ega bo'lmagan qonni to'playdi va uni yurakka qaytaradi. Tomirlar qon aylanish
-    tizimingizning bir qismidir. Ular qonning harakatlanishini ta'minlash uchun boshqa
-    qon tomirlari va yuragingiz bilan birgalikda ishlaydi.
+  m_text: "Odam organizmining faol harakatlantiruvchi qismi \u2013 muskullar bo\u2019lib,
+    muskullarning qisqarishi va kengayishi suyaklar, bog\u2018lamlar va fassiyalar
+    bilan birgalikda tananing harakatlanishiga yordam beradi.  Muskullar tana a\u2019zolarning
+    faoliyatida ham qatnashadi. Yurak muskullari qonning so\u2019rilish va uzatilishini
+    amalga oshirsa, oshqozon muskullari torayib, ozuqani ichak tomonga harakatlanishini
+    ta\u2019minlaydi"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
-  m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2563,8 +2565,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 8.5
+  m_fontSizeBase: 8.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2599,7 +2601,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -61.69963, y: 68.40646, z: -82.36464, w: 8.885891}
+  m_margin: {x: -61.69963, y: 68.40646, z: -112.28018, w: 39.15926}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2647,7 +2649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.9, y: 68.4}
+  m_AnchoredPosition: {x: 23.8, y: 68.4}
   m_SizeDelta: {x: 188.696, y: 21.972}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1413325948
@@ -2672,8 +2674,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Muskullar tizimi
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
-  m_sharedMaterial: {fileID: -6458329070139720628, guid: 37d626bc9cec2644c8c7351580573cbc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2697,8 +2699,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2733,7 +2735,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 5.210472, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.20474243, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2882,8 +2884,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Limfa tizimi
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3661,8 +3663,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Skeletlar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
+  m_sharedMaterial: {fileID: 2000935351785917955, guid: 4795ca111a775964284a3feaf23916bf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
