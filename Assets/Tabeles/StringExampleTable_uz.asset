@@ -42,87 +42,77 @@ MonoBehaviour:
     m_Localized: Iltimos,Familyangizni kiriting!
     m_Metadata:
       m_Items: []
-  - m_Id: 634318098300928
+  - m_Id: 1376424953647104
     m_Localized: Anatomiya
     m_Metadata:
       m_Items: []
-  - m_Id: 634711133945856
+  - m_Id: 1376565320224768
     m_Localized: Matematika
     m_Metadata:
       m_Items: []
-  - m_Id: 635020828770304
+  - m_Id: 1376636812136448
     m_Localized: Kimyo
     m_Metadata:
       m_Items: []
-  - m_Id: 635157391114240
+  - m_Id: 1438404318072832
     m_Localized: Tarix
     m_Metadata:
       m_Items: []
-  - m_Id: 635369518039040
+  - m_Id: 1377151188996096
     m_Localized: Astronomiya
     m_Metadata:
       m_Items: []
-  - m_Id: 635473914265600
-    m_Localized: Fizika
+  - m_Id: 1377252317859840
+    m_Localized: 'Fizika
+
+'
     m_Metadata:
       m_Items: []
-  - m_Id: 638353450762240
-    m_Localized: Miya
+  - m_Id: 1395743431331840
+    m_Localized: 'Yurak '
     m_Metadata:
       m_Items: []
-  - m_Id: 638570833149952
-    m_Localized: Yurak
+  - m_Id: 1395821143396352
+    m_Localized: "O\u02BBpka "
     m_Metadata:
       m_Items: []
-  - m_Id: 638800899112960
-    m_Localized: Test
-    m_Metadata:
-      m_Items: []
-  - m_Id: 639371454480384
-    m_Localized: O'pka
-    m_Metadata:
-      m_Items: []
-  - m_Id: 639743556354048
+  - m_Id: 1395918002458624
     m_Localized: Jigar
     m_Metadata:
       m_Items: []
-  - m_Id: 640046880030720
-    m_Localized: Buyrak
+  - m_Id: 1396027977109504
+    m_Localized: 'Buyrak '
     m_Metadata:
       m_Items: []
-  - m_Id: 640440909725696
-    m_Localized: Oshqozon
+  - m_Id: 1396124303495168
+    m_Localized: 'Oshqozon '
     m_Metadata:
       m_Items: []
-  - m_Id: 640801351434240
-    m_Localized: Ichak
+  - m_Id: 1396258886127616
+    m_Localized: 'Ichak '
     m_Metadata:
       m_Items: []
-  - m_Id: 641129006268416
-    m_Localized: O't pufagi
+  - m_Id: 1396379816300544
+    m_Localized: 'O''t pufagi '
     m_Metadata:
       m_Items: []
-  - m_Id: 641371873247232
-    m_Localized: Suyak
+  - m_Id: 1396606384214016
+    m_Localized: 'Suyak '
     m_Metadata:
       m_Items: []
-  - m_Id: 658314075176960
-    m_Localized: Orqaga
-    m_Metadata:
-      m_Items: []
-  - m_Id: 658859607326720
+  - m_Id: 1404814708445184
     m_Localized: Muskullar tizimi
     m_Metadata:
       m_Items: []
-  - m_Id: 659155075072000
+  - m_Id: 1405119953113088
     m_Localized: Skeletlar
     m_Metadata:
       m_Items: []
-  - m_Id: 659494750781440
+  - m_Id: 1405211682541568
     m_Localized: Limfa tizimi
     m_Metadata:
       m_Items: []
-  - m_Id: 659957743222784
+  - m_Id: 1405387621011456
     m_Localized: Qon tomirlari
     m_Metadata:
       m_Items: []
