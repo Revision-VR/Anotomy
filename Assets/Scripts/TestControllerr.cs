@@ -10,9 +10,16 @@ public class TestController : MonoBehaviour
     public Button choiceA;
     public Button choiceB;
     public Button choiceS;
+
     public Button choiceD;
     public Button choiceF;
     public Button choiceG;
+
+
+    public Button choiceH;
+    public Button choiceI;
+    public Button choiceJ;
+
     public Button Restart;
 
     public GameObject TurnOnAnim;
@@ -61,6 +68,10 @@ public class TestController : MonoBehaviour
         questions.Add(new Question(" Safroni to'plash va qayta ishlash a'zosi .....", "B"));
         questions.Add(new Question(" Odam skeletining  asosiy qismi nima?", "S"));
 
+        questions.Add(new Question(" Ba'zi manbalarda me'da nomi bilan yuritiladigan odam a'zosi qaysi?", "A"));
+        questions.Add(new Question(" Loviyasimon shaklga ega odam a'zosi ....", "S"));
+        questions.Add(new Question(" Zararli moddalardan filtirlovchi organ qaysi?", "S"));
+
 
         ShuffleQuestions();
     }
@@ -102,10 +113,33 @@ public class TestController : MonoBehaviour
                 choiceB.gameObject.SetActive(false);
                 choiceS.gameObject.SetActive(false);
 
+                choiceH.gameObject.SetActive(false);
+                choiceI.gameObject.SetActive(false);
+                choiceJ.gameObject.SetActive(false);
+
                 choiceD.gameObject.SetActive(true);
                 choiceF.gameObject.SetActive(true);
                 choiceG.gameObject.SetActive(true);
             }
+
+            else if (currentQuestion.question == " Ba'zi manbalarda me'da nomi bilan yuritiladigan odam a'zosi qaysi?"
+                     || currentQuestion.question == " Loviyasimon shaklga ega odam a'zosi ...."
+                     || currentQuestion.question == " Zararli moddalardan filtirlovchi organ qaysi?")
+            {
+                choiceA.gameObject.SetActive(false);
+                choiceB.gameObject.SetActive(false);
+                choiceS.gameObject.SetActive(false);
+
+                choiceD.gameObject.SetActive(false);
+                choiceF.gameObject.SetActive(false);
+                choiceG.gameObject.SetActive(false);
+
+                choiceH.gameObject.SetActive(true);
+                choiceI.gameObject.SetActive(true);
+                choiceJ.gameObject.SetActive(true);
+
+            }
+
             else
             {
                 choiceA.gameObject.SetActive(true);
@@ -115,6 +149,10 @@ public class TestController : MonoBehaviour
                 choiceD.gameObject.SetActive(false);
                 choiceF.gameObject.SetActive(false);
                 choiceG.gameObject.SetActive(false);
+
+                choiceH.gameObject.SetActive(false);
+                choiceI.gameObject.SetActive(false);
+                choiceJ.gameObject.SetActive(false);
             }
         }
         else
@@ -132,9 +170,15 @@ public class TestController : MonoBehaviour
             choiceA.gameObject.SetActive(false);
             choiceB.gameObject.SetActive(false);
             choiceS.gameObject.SetActive(false);
+
             choiceD.gameObject.SetActive(false);
             choiceF.gameObject.SetActive(false);
             choiceG.gameObject.SetActive(false);
+
+            choiceH.gameObject.SetActive(false);
+            choiceI.gameObject.SetActive(false);
+            choiceJ.gameObject.SetActive(false);
+
             questionCounterText.gameObject.SetActive(false);
             feedbackText.gameObject.SetActive(false);
 

@@ -1,8 +1,6 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Video;
 
 public class CanvasManager : MonoBehaviour
 {
@@ -24,7 +22,7 @@ public class CanvasManager : MonoBehaviour
     public void Awake()
     {
         videoController.SetActive(true);
-      //  videoController.GetComponent<VideoPlayer>().Play();
+        //  videoController.GetComponent<VideoPlayer>().Play();
         StartCoroutine(Wait());
     }
 
@@ -91,9 +89,9 @@ public class CanvasManager : MonoBehaviour
     }
 
 
-   public IEnumerator Wait()
+    public IEnumerator Wait()
     {
-        yield return new WaitForSeconds(11f);   
+        yield return new WaitForSeconds(11f);
         StartCoroutine(AnimationController1());
     }
 }
