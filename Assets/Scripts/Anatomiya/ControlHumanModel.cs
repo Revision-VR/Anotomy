@@ -25,11 +25,22 @@ public class ControlHumanModel : MonoBehaviour
     private Material[] _organMaterials;
 
 
+
+
     [SerializeField]
     private string[] _infoes;
 
     [SerializeField]
+    private string[] _infoesRu;
+
+    [SerializeField]
+    private string[] _infoesEn;
+
+
+    [SerializeField]
     private string[] _infoesNames;
+
+
 
 
     [SerializeField]
@@ -37,7 +48,6 @@ public class ControlHumanModel : MonoBehaviour
 
     [SerializeField]
     private TMP_Text _infoText;
-
 
     [SerializeField]
     private GameObject[] _indidualObjects;
@@ -54,14 +64,29 @@ public class ControlHumanModel : MonoBehaviour
     private bool doubleClick = true;
     private bool canRotate;
 
+     string _language;
 
 
     int rotationY = 0;
 
+    private void Start()
+    {
+        _language = PlayerPrefs.GetString("Language");
+
+        if ( _language == null )
+        {
+            _language = "en";
+        }
+
+        ShowInfo(1);
+
+    }
+   
+
 
     private void Update()
     {
-
+        //_language = PlayerPrefs.GetString("Language");
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -193,6 +218,28 @@ public class ControlHumanModel : MonoBehaviour
 
     void ShowInfo(int index)
     {
+        //_infoName.text = _infoesNames[index];
+        //_infoText.text = _infoes[index];
+
+
+        switch (_language)
+        {
+            case "uz":
+                _infoName.text = _infoesNames[index];
+                _infoText.text = _infoes[index];
+                break;
+
+            case "ru":
+                _infoName.text = _infoesNamesRu[index];
+                _infoText.text = _infoesRu[index];
+                break;
+
+            case "en":
+                _infoName.text = _infoesNamesEn[index];
+                _infoText.text = _infoesEn[index];
+                break;
+        }
+
         _infoName.text = _infoesNames[index];
         _infoText.text = _infoes[index];
     }
