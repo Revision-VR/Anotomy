@@ -62,6 +62,7 @@ public class TestController : MonoBehaviour
         questions.Add(new Question(" Qon aylanish sistemasidagi markaziy a'zo qaysi?", "A"));
         questions.Add(new Question(" Qonning qon tomirlar bo'ylab uzluksiz harakatini taminlaydigan a'zo...", "A"));
         questions.Add(new Question(" Nafas olish a'zosi qaysi?", "A"));
+        questions.Add(new Question(" Ko'krak qafasining ikkala tomonini to'ldirib turadigan odam a'zosini toping.", "A"));
         questions.Add(new Question(" Ovqatni saqlaydigan va uni maydalaydigan a'zo qaysi?", "S"));
         questions.Add(new Question(" Me'dadan kegin keladigan odam a'zosini toping.", "S"));
         questions.Add(new Question(" Nok shaklidagi kichik organ qaysi?", "B"));
@@ -106,6 +107,7 @@ public class TestController : MonoBehaviour
 
             if (currentQuestion.question == " Odam skeletining  asosiy qismi nima?"
                 || currentQuestion.question == " Safroni to'plash va qayta ishlash a'zosi ....."
+                || currentQuestion.question == " Ko'krak qafasining ikkala tomonini to'ldirib turadigan odam a'zosini toping."
                 || currentQuestion.question == " Nok shaklidagi kichik organ qaysi?"
                 || currentQuestion.question == " Nafas olish a'zosi qaysi?")
             {
