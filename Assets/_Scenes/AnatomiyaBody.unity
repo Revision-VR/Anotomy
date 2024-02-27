@@ -863,6 +863,21 @@ MonoBehaviour:
     goes to various organs of the body through arteries, and blood saturated with
     carbon dioxide returns through veins. Veins are part of your circulatory system
     and work together with your heart to keep blood moving
+  _bodyInfo:
+  - "Odam organizmining faol harakatlantiruvchi qismi \u2013 muskullar, passiv harakatlantiruvchi
+    qismlari \u2013 suyaklar, bog\u2018lamlar va fassiyalar bilan birgalikda tananing
+    harakatlanishiga yordam beradi.Odam tanasida 600 ga yaqin muskul bor."
+  - "Inson tanasining suyaklari to'plami, tayanch- harakat tizimining passiv qismidir.U
+    yumshoq to'qimalarni suyanchig\u02BBi, mushaklarni qo'llash nuqtasi, ichki organlarni
+    himoya qilish uchun xizmat qiladi Voyaga yetgan odam skeleti taxminan 206 suyakdan
+    iboratdir."
+  - Sizning limfa tizimingiz sizni infektsiyadan himoya qiladigan va tanangizdagi
+    suyuqlikning sog'lom muvozanatini saqlaydigan organlar, tomirlar va to'qimalar
+    guruhidir. Limfa tizimi organlariga suyak iligi, timus va limfa tugunlari kiradi.
+  - Tomirlar - bu tanangiz bo'ylab joylashgan qon tomirlari bo'lib, ular kislorodga
+    ega bo'lmagan qonni to'playdi va uni yurakka qaytaradi. Tomirlar qon aylanish
+    tizimingizning bir qismidir. Ular qonning harakatlanishini ta'minlash uchun boshqa
+    qon tomirlari va yuragingiz bilan birgalikda ishlaydi.
   _bodInfoNameText: {fileID: 1413325948}
   _bodInfoText: {fileID: 1356201030}
   _bodyButtons: {fileID: 1534865381}

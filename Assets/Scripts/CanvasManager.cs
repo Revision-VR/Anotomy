@@ -69,12 +69,7 @@ public class CanvasManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         TurnOfAnim.SetActive(false);
         StartCoroutine(AnimationController1());
-
-        foreach (GameObject obj in FanlarObjects)
-        {
-            obj.SetActive(true);
-        }
-        foreach (GameObject obj in TextObjects)
+        foreach (GameObject obj in JinsObjects)
         {
             obj.SetActive(true);
         }
@@ -88,8 +83,34 @@ public class CanvasManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
     }
 
+    private IEnumerator AnimationController2()
+    {
+        TurnOfAnim.SetActive(true);
+        CanvasAnim.Play("CanvasAnim");
+        yield return new WaitForSeconds(1f);
+        TurnOfAnim.SetActive(false);
+
+        StartCoroutine(AnimationController1());
 
     public IEnumerator Wait()
+        foreach (GameObject obj in FanlarObjects)
+        {
+            obj.SetActive(true);
+        }
+        foreach (GameObject obj in TextObjects)
+        {
+            obj.SetActive(true);
+        }
+    }
+    public void OnOf1()
+    {
+        StartCoroutine(AnimationController2());
+        foreach (GameObject obj in JinsObjects)
+        {
+            obj.SetActive(false);
+        }
+    }
+   public IEnumerator Wait()
     {
         yield return new WaitForSeconds(11f);
         StartCoroutine(AnimationController1());

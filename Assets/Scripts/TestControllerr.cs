@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.UI;
+using System.Collections.Generic;
+using System.Diagnostics.Contracts;
+using System.Collections;
 
 public class TestController : MonoBehaviour
 {
@@ -23,7 +27,6 @@ public class TestController : MonoBehaviour
     public Button Restart;
 
     public GameObject TurnOnAnim;
-    public GameObject TurnOfAnim;
     public Animator CanvasAnim;
 
 
@@ -63,6 +66,10 @@ public class TestController : MonoBehaviour
         questions.Add(new Question(" Qonning qon tomirlar bo'ylab uzluksiz harakatini taminlaydigan a'zo...", "A"));
         questions.Add(new Question(" Nafas olish a'zosi qaysi?", "A"));
         questions.Add(new Question(" Ko'krak qafasining ikkala tomonini to'ldirib turadigan odam a'zosini toping.", "A"));
+        //questions.Add(new Question(" Bu qaysi a'zo?", "A"));
+        //questions.Add(new Question(" Bu qaysi a'zo?", "B"));
+        //questions.Add(new Question(" Bu qaysi a'zo?", "S"));
+        //questions.Add(new Question(" Buyrak qanday a'zo?", "A"));
         questions.Add(new Question(" Ovqatni saqlaydigan va uni maydalaydigan a'zo qaysi?", "S"));
         questions.Add(new Question(" Me'dadan kegin keladigan odam a'zosini toping.", "S"));
         questions.Add(new Question(" Nok shaklidagi kichik organ qaysi?", "B"));
@@ -73,6 +80,9 @@ public class TestController : MonoBehaviour
         questions.Add(new Question(" Loviyasimon shaklga ega odam a'zosi ....", "S"));
         questions.Add(new Question(" Zararli moddalardan filtirlovchi organ qaysi?", "S"));
 
+        //questions.Add(new Question(" Bu qaysi a'zo?", "A"));
+        //questions.Add(new Question(" Bu qaysi a'zo?", "B"));
+        //questions.Add(new Question(" Bu qaysi a'zo?", "S"));
 
         ShuffleQuestions();
     }
@@ -159,7 +169,6 @@ public class TestController : MonoBehaviour
         }
         else
         {
-
             feedbackText.text = ""; // Clear previous feedback
             correctAnswersText.text = "To'g'ri javoblar: " + correctAnswers + "/5";
             //  incorrectAnswersText.text = "Incorrect Answers: " + incorrectAnswers + "/5";
@@ -223,20 +232,6 @@ public class TestController : MonoBehaviour
         Invoke("ShowNextQuestion", 1f); // Adjust the duration as needed
     }
 
-    public void Back()
-    {
-        StartCoroutine(AnimationController());
-    }
-
-    private IEnumerator AnimationController()
-    {
-        TurnOfAnim.SetActive(true);
-        CanvasAnim.Play("CanvasAnim");
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(2);
-
-    }
-
     public IEnumerator AnimationController1()
     {
         TurnOnAnim.SetActive(true);
@@ -269,4 +264,5 @@ public class TestController : MonoBehaviour
         // Restart the test
         StartNewTest();
     }
+
 }

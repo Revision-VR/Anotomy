@@ -1,6 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class ControlHumanModel : MonoBehaviour
 {
@@ -37,12 +40,6 @@ public class ControlHumanModel : MonoBehaviour
     [SerializeField]
     private string[] _infoesNames;
 
-    [SerializeField]
-    private string[] _infoesNamesRu;
-
-    [SerializeField]
-    private string[] _infoesNamesEn;
-
 
 
 
@@ -68,6 +65,7 @@ public class ControlHumanModel : MonoBehaviour
     private bool canRotate;
 
      string _language;
+
 
     int rotationY = 0;
 
@@ -102,7 +100,7 @@ public class ControlHumanModel : MonoBehaviour
                 offset = Input.mousePosition - Camera.main.WorldToScreenPoint(dragging.position);
 
                 ShowInfo(hit.transform.GetSiblingIndex());
-
+                
                 if (doubleClick)
                 {
                     Invoke(nameof(StopDoubleClick), 0.3f);
@@ -242,6 +240,8 @@ public class ControlHumanModel : MonoBehaviour
                 break;
         }
 
+        _infoName.text = _infoesNames[index];
+        _infoText.text = _infoes[index];
     }
 
 

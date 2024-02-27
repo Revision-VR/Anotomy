@@ -1745,6 +1745,7 @@ RectTransform:
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439762511
+--- !u!114 &435820323
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1779,6 +1780,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439762509}
   m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 435820319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:e4a5ed23a0dfe9d489cbf5a714844940
+    m_TableEntryReference:
+      m_KeyId: 638353450762240
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 435820321}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &559090919
 GameObject:
   m_ObjectHideFlags: 0
@@ -4439,8 +4474,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4951,6 +4986,26 @@ MonoBehaviour:
     which forms the bone system - the endoskeleton. Tubular bones contain bone marrow,
     which produces red and white blood cells. Bone tissue together with joints, ligaments,
     muscles and tendons attached to it forms the supporting movement apparatus. '
+  - Brain
+  - The heart is the central organ in the human circulatory system. Due to its constant
+    uniform contraction, it ensures the continuous movement of blood along the blood
+    vessels.
+  - Lungs are the breathing organs of humans and are large soft organs that fill
+    both sides of the chest.
+  - Jgar performs many important biological functions, including detoxification of
+    the body, synthesis of proteins and biochemicals necessary for digestion and
+    growth.
+  - "Kidney \u2014 (ren, Greekchanephros) a pair of organs that secrete urine. It
+    has a bean shape."
+  - The stomach is an enlarged part of the digestive system. Food is stored, crushed
+    and partially digested in the stomach.
+  - The intestine is the part of the digestive system that follows the stomach.
+  - The gallbladder is a small pear-shaped organ located under the liver, in the
+    upper right side of the abdomen. The main function of the gallbladder is to collect
+    and store bile.
+  - Bone is the main part of the human skeleton. Bone tissue is a type of connective
+    tissue. Bones together with joints, ligaments, muscles and tendons make up the
+    musculoskeletal system.
   _infoesNames:
   - Miyya
   - Yurak
@@ -5023,7 +5078,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeAnim: {fileID: 1177932781}
   TurnOfAnim: {fileID: 1743314023}
-  TurnOnAnim: {fileID: 439762509}
 --- !u!1 &1510754612
 GameObject:
   m_ObjectHideFlags: 0
@@ -5635,6 +5689,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Texture: {fileID: 2800000, guid: 167b11d11a6c1a245947c4db6872505d, type: 3}
+  m_Texture: {fileID: 2800000, guid: a093780a76b8e8c4c8b121e123d21a82, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0

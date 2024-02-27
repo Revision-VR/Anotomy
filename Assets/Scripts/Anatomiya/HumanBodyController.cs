@@ -17,6 +17,7 @@ public class HumanBodyController : MonoBehaviour
     [SerializeField] private string[] _bodyInfoRu;
     [SerializeField] private string[] _bodyInfoEn;
 
+    [SerializeField] private string[] _bodyInfo;
 
 
     [SerializeField] private TMP_Text _bodInfoNameText;
@@ -73,6 +74,9 @@ public class HumanBodyController : MonoBehaviour
                     break;
             }
 
+            _bodInfoNameText.text = _bodyInfoName[index - 1];
+            _bodInfoText.text = _bodyInfo[index - 1];
+            _bodyButtons.SetActive(false);
         }
         else
         {
