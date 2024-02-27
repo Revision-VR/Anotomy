@@ -1,11 +1,8 @@
-using UnityEngine;
-using UnityEngine.UI;
-
-using UnityEngine.SceneManagement;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using System.Collections;
-using System.Xml.Serialization;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class TestController : MonoBehaviour
 {
@@ -13,8 +10,8 @@ public class TestController : MonoBehaviour
     public Button choiceA;
     public Button choiceB;
     public Button choiceS;
-    public Button choiceD; 
-    public Button choiceF; 
+    public Button choiceD;
+    public Button choiceF;
     public Button choiceG;
     public Button Restart;
 
@@ -93,10 +90,10 @@ public class TestController : MonoBehaviour
             // Concatenate the question number with the question text
             questionText.text = /*(currentQuestionIndex + 1) + ") " */currentQuestion.question;
             currentQuestionIndex++;
-            questionCounterText.text = "Question " + currentQuestionIndex + " of " + totalQuestionsPerTest;
+            questionCounterText.text = currentQuestionIndex + "/" + totalQuestionsPerTest;
             feedbackText.text = ""; // Clear previous feedback
 
-            if (currentQuestion.question == " Odam skeletining  asosiy qismi nima?" 
+            if (currentQuestion.question == " Odam skeletining  asosiy qismi nima?"
                 || currentQuestion.question == " Safroni to'plash va qayta ishlash a'zosi ....."
                 || currentQuestion.question == " Nok shaklidagi kichik organ qaysi?"
                 || currentQuestion.question == " Nafas olish a'zosi qaysi?")
@@ -105,7 +102,7 @@ public class TestController : MonoBehaviour
                 choiceB.gameObject.SetActive(false);
                 choiceS.gameObject.SetActive(false);
 
-                choiceD.gameObject.SetActive(true); 
+                choiceD.gameObject.SetActive(true);
                 choiceF.gameObject.SetActive(true);
                 choiceG.gameObject.SetActive(true);
             }
@@ -124,13 +121,13 @@ public class TestController : MonoBehaviour
         {
 
             feedbackText.text = ""; // Clear previous feedback
-            correctAnswersText.text = "Correct Answers: " + correctAnswers + "/5";
-            incorrectAnswersText.text = "Incorrect Answers: " + incorrectAnswers + "/5";
+            correctAnswersText.text = "To'g'ri javoblar: " + correctAnswers + "/5";
+            //  incorrectAnswersText.text = "Incorrect Answers: " + incorrectAnswers + "/5";
 
             // Disable all UI elements related to the test
             Restart.gameObject.SetActive(true);
             correctAnswersText.gameObject.SetActive(true);
-            incorrectAnswersText.gameObject.SetActive(true);
+            //       incorrectAnswersText.gameObject.SetActive(true);
             questionText.gameObject.SetActive(false);
             choiceA.gameObject.SetActive(false);
             choiceB.gameObject.SetActive(false);
@@ -165,13 +162,13 @@ public class TestController : MonoBehaviour
         Question currentQuestion = questions[currentQuestionIndex - 1];
         if (chosenAnswer == currentQuestion.answer)
         {
-            feedbackText.text = "Correct!";
-            feedbackText.color = Color.green; // Change text color to green for correct answer
+            feedbackText.text = "To'g'ri!";
+            feedbackText.color = new Color(0.0f, 0.5f, 0.0f);// Change text color to green for correct answer
             correctAnswers++;
         }
         else
         {
-            feedbackText.text = "Incorrect!";
+            feedbackText.text = "Noto'g'ri!";
             feedbackText.color = Color.red; // Change text color to red for incorrect answer
             incorrectAnswers++;
         }
@@ -226,6 +223,4 @@ public class TestController : MonoBehaviour
         // Restart the test
         StartNewTest();
     }
-
-
 }
