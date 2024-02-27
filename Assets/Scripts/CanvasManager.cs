@@ -24,7 +24,7 @@ public class CanvasManager : MonoBehaviour
     public void Awake()
     {
         videoController.SetActive(true);
-        videoController.GetComponent<VideoPlayer>().Play();
+      //  videoController.GetComponent<VideoPlayer>().Play();
         StartCoroutine(Wait());
     }
 
@@ -85,6 +85,7 @@ public class CanvasManager : MonoBehaviour
     public IEnumerator AnimationController1()
     {
         TurnOnAnim.SetActive(true);
+        videoController.SetActive(false);
         CanvasAnim.Play("TurnOnAnim");
         yield return new WaitForSeconds(1f);
     }
@@ -92,8 +93,7 @@ public class CanvasManager : MonoBehaviour
 
    public IEnumerator Wait()
     {
-        yield return new WaitForSeconds(11f);
-        videoController.SetActive(false);
+        yield return new WaitForSeconds(11f);   
         StartCoroutine(AnimationController1());
     }
 }
