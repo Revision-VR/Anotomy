@@ -1,6 +1,8 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class CanvasManager : MonoBehaviour
 {
@@ -12,7 +14,6 @@ public class CanvasManager : MonoBehaviour
     public GameObject videoController1;
     public GameObject TurnOfAnim;
     public GameObject TurnOnAnim;
-    public GameObject LanguageDown;
     public Animator CanvasAnim;
     public Animator CanvasAnim1;
     public Text ErrorIsm;
@@ -22,7 +23,7 @@ public class CanvasManager : MonoBehaviour
     public void Awake()
     {
         videoController.SetActive(true);
-        //  videoController.GetComponent<VideoPlayer>().Play();
+        videoController.GetComponent<VideoPlayer>().Play();
         StartCoroutine(Wait());
     }
 
@@ -55,8 +56,6 @@ public class CanvasManager : MonoBehaviour
             obj.SetActive(false);
         }
 
-        LanguageDown.SetActive(false);
-
 
         StartCoroutine(AnimationController());
     }
@@ -78,7 +77,6 @@ public class CanvasManager : MonoBehaviour
     public IEnumerator AnimationController1()
     {
         TurnOnAnim.SetActive(true);
-        videoController.SetActive(false);
         CanvasAnim.Play("TurnOnAnim");
         yield return new WaitForSeconds(1f);
     }
@@ -92,7 +90,6 @@ public class CanvasManager : MonoBehaviour
 
         StartCoroutine(AnimationController1());
 
-    public IEnumerator Wait()
         foreach (GameObject obj in FanlarObjects)
         {
             obj.SetActive(true);
@@ -113,6 +110,7 @@ public class CanvasManager : MonoBehaviour
    public IEnumerator Wait()
     {
         yield return new WaitForSeconds(11f);
+        videoController.SetActive(false);
         StartCoroutine(AnimationController1());
     }
 }
